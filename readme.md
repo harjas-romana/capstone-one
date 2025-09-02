@@ -1,6 +1,3 @@
-Here's a comprehensive `README.md` file for your mental health chatbot project:
-
-```markdown
 # Mental Health Chatbot 🤖💚
 
 A RAG-powered mental health assistant built with Groq API, Llama 3.3 70B, and ChromaDB. Provides empathetic, context-aware responses for mental health support while handling general queries.
