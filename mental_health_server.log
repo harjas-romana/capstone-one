@@ -1,0 +1,20 @@
+2025-09-02 11:20:14,088 - mental_health_server - INFO - MentalHealthServer initialized
+2025-09-02 11:20:14,090 - mental_health_server - INFO - Starting server on 0.0.0.0:8000
+2025-09-02 11:20:14,285 - mental_health_server - INFO - Starting server initialization...
+2025-09-02 11:20:14,329 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: mps
+2025-09-02 11:20:14,329 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-02 11:20:19,239 - chromadb.telemetry.posthog - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-09-02 11:20:19,241 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-02 11:20:22,831 - chromadb.telemetry.posthog - ERROR - Failed to send telemetry event CollectionAddEvent: capture() takes 1 positional argument but 3 were given
+2025-09-02 11:20:22,831 - mental_health_server - INFO - Knowledge base initialized with sample data
+2025-09-02 11:20:42,652 - mental_health_server - INFO - Request 44caac1f-5674-43e8-80c5-b755cbc9dcfa started: POST http://localhost:8000/chat
+2025-09-02 11:20:42,660 - mental_health_server - INFO - Created new session: optional-session-id
+2025-09-02 11:20:42,660 - mental_health_server - INFO - Processing message in session optional-session-id: I feel anxious today...
+2025-09-02 11:20:43,198 - mental_health_server - INFO - Response generated in 0.539s for session optional-session-id
+2025-09-02 11:20:43,202 - mental_health_server - INFO - Request 44caac1f-5674-43e8-80c5-b755cbc9dcfa completed: 0.550s - Status: 200
+2025-09-02 11:20:52,971 - mental_health_server - INFO - Request 2dbb9445-0654-4ccb-972d-1303372f7a25 started: GET http://localhost:8000/health
+2025-09-02 11:20:52,972 - mental_health_server - INFO - Health check passed
+2025-09-02 11:20:52,973 - mental_health_server - INFO - Request 2dbb9445-0654-4ccb-972d-1303372f7a25 completed: 0.001s - Status: 200
+2025-09-02 11:21:01,372 - mental_health_server - INFO - Request 4f721947-90be-498e-ae5d-0b578677b0cf started: GET http://localhost:8000/sessions
+2025-09-02 11:21:01,374 - mental_health_server - INFO - Listed 1 active sessions
+2025-09-02 11:21:01,374 - mental_health_server - INFO - Request 4f721947-90be-498e-ae5d-0b578677b0cf completed: 0.003s - Status: 200
